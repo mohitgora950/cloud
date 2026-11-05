@@ -3,13 +3,19 @@ import json
 import time
 import subprocess
 import sys
+import argparse
 import torch
 from transformers import AutoTokenizer, AutoModelForCausalLM
 
 BASE_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 VAL_FILE = os.path.join(BASE_DIR, "data", "validation.jsonl")
 RESULTS_DIR = os.path.join(BASE_DIR, "results")
-PRED_FILE = os.path.join(RESULTS_DIR, "untrained_predictions.jsonl")
+
+parser = argparse.ArgumentParser()
+parser.add_argument("--output", default=os.path.join(RESULTS_DIR, "untrained_predictions.jsonl"))
+args, _ = parser.parse_known_args()
+
+PRED_FILE = os.path.abspath(args.output)
 REPORT_FILE = os.path.join(RESULTS_DIR, "untrained_validation.json")
 
 os.makedirs(RESULTS_DIR, exist_ok=True)
