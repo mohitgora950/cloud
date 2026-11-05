@@ -1,6 +1,6 @@
 name: CI/CD Pipeline
 
-on:
+'on':
   push:
     branches: [ "main" ]
   pull_request:
@@ -21,7 +21,7 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Stage 0: Secret Scanning (Gitleaks)
+      - name: "Stage 0: Secret Scanning (Gitleaks)"
         uses: gitleaks/gitleaks-action@v2
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -37,18 +37,18 @@ jobs:
           python -m pip install --upgrade pip
           pip install flake8 pytest httpx torch transformers boto3 requests pydantic fastapi
 
-      - name: Stage 1: Linting
+      - name: "Stage 1: Linting"
         run: |
           # Stop the build if there are Python syntax errors or undefined names
           flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
           # Exit-zero treats all errors as warnings
           flake8 . --count --exit-zero --max-complexity=15 --max-line-length=127 --statistics
 
-      - name: Stage 2: Unit Tests (At least 3 tests)
+      - name: "Stage 2: Unit Tests (At least 3 tests)"
         run: |
           python -m pytest tests/test_service.py -v
 
-      - name: Stage 3: Model Evaluation (Download from Release & Score)
+      - name: "Stage 3: Model Evaluation (Download from Release & Score)"
         run: |
           mkdir -p models/v1 results
           if [ "${{ github.event.inputs.test_bad_model }}" = "true" ]; then
@@ -75,7 +75,7 @@ jobs:
             python tools/score.py results/predictions.jsonl data/validation.jsonl --output results/score_report.json
           fi
 
-      - name: Stage 4: Quality Gate (--min-validity 95)
+      - name: "Stage 4: Quality Gate (--min-validity 95)"
         run: |
           echo "Executing quality gate verification..."
           if [ -f "results/predictions.jsonl" ]; then
@@ -83,4 +83,3 @@ jobs:
           else
             echo "Skipping gate: prediction artifact not found."
           fi
-
