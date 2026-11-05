@@ -72,7 +72,7 @@ jobs:
           fi
           # Run score script
           if [ -f "results/predictions.jsonl" ]; then
-            python tools/score.py results/predictions.jsonl data/validation.jsonl --output results/score_report.json
+            python tools/score.py results/predictions.jsonl data/validation.jsonl --out results/score_report.json
           fi
 
       - name: "Stage 4: Quality Gate (--min-validity 95)"
