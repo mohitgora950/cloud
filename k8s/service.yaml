@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: parser-service
+  namespace: app
+  labels:
+    app: command-parser
+spec:
+  type: ClusterIP
+  selector:
+    app: command-parser
+  ports:
+  - name: http
+    port: 8000
+    targetPort: 8000
+

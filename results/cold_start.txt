@@ -1,0 +1,10 @@
+=== Kubernetes Cold Start Test ===
+Measurement: Time from pod deletion to Ready condition across 3 independent runs.
+
+Run 1: 22.03 seconds (4 replicas Ready)
+Run 2: 22.35 seconds (4 replicas Ready)
+Run 3: 20.88 seconds (4 replicas Ready)
+
+Run Times: [22.03, 22.35, 20.88]
+Median Cold Start Time: 22.03 seconds
+Min: 20.88s, Max: 22.35s

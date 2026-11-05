@@ -1,0 +1,35 @@
+[Worker 1/2] Starting shard 1 of 2
+Teacher URL: http://localhost:11434/api/generate, S3: http://127.0.0.1:8333
+[Worker 1] Assigned 1500 commands out of 3000 total.
+[Worker 1] Processed 50/1500 commands.
+[Worker 1] Processed 100/1500 commands.
+[Worker 1] Processed 150/1500 commands.
+[Worker 1] Processed 200/1500 commands.
+[Worker 1] Processed 250/1500 commands.
+[Worker 1] Processed 300/1500 commands.
+[Worker 1] Processed 350/1500 commands.
+[Worker 1] Processed 400/1500 commands.
+[Worker 1] Processed 450/1500 commands.
+[Worker 1] Processed 500/1500 commands.
+[Worker 1] Processed 550/1500 commands.
+[Worker 1] Processed 600/1500 commands.
+[Worker 1] Processed 650/1500 commands.
+[Worker 1] Processed 700/1500 commands.
+[Worker 1] Processed 750/1500 commands.
+[Worker 1] Processed 800/1500 commands.
+[Worker 1] Processed 850/1500 commands.
+[Worker 1] Processed 900/1500 commands.
+[Worker 1] Processed 950/1500 commands.
+[Worker 1] Processed 1000/1500 commands.
+[Worker 1] Processed 1050/1500 commands.
+[Worker 1] Processed 1100/1500 commands.
+[Worker 1] Processed 1150/1500 commands.
+[Worker 1] Processed 1200/1500 commands.
+[Worker 1] Processed 1250/1500 commands.
+[Worker 1] Processed 1300/1500 commands.
+[Worker 1] Processed 1350/1500 commands.
+[Worker 1] Processed 1400/1500 commands.
+[Worker 1] Processed 1450/1500 commands.
+[Worker 1] Processed 1500/1500 commands.
+[Worker 1] Shard complete. Uploading to S3: datasets/teacher/shard-1.jsonl
+[Worker 1] Uploaded successfully to S3.

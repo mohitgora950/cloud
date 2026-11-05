@@ -1,0 +1,8 @@
+seed: 42
+learning_rate: 0.0001
+batch_size: 16
+num_epochs: 3
+max_seq_length: 56
+library_versions:
+  torch: "2.14.1"
+  transformers: "5.20.2"

@@ -1,0 +1,11 @@
+{
+  "per_replica": {
+    "command-parser-6458d66b74-mpcbm": 18,
+    "command-parser-6458d66b74-6r77c": 17,
+    "command-parser-6458d66b74-zdmnr": 18,
+    "command-parser-6458d66b74-6xxbc": 18
+  },
+  "per_model_version": {
+    "v2": 71
+  }
+}

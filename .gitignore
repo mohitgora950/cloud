@@ -1,0 +1,24 @@
+# Model weights (Upload to S3 and GitHub Releases, never commit to git)
+*.safetensors
+*.bin
+*.pt
+*.pth
+model_cache/
+
+# Python cache and temporary files
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Rendered temporary images in results
+results/*.png
+
+# Tar archives
+*.tar
+*.tar.gz
+
+# Submission archives and reflection notes (submit directly to portal/Moodle)
+*.zip
+230101056.pdf
+
+

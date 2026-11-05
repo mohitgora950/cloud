@@ -1,0 +1,163 @@
+=== Pod Resource Telemetry During Locust Load Test (Task 7) ===
+
+--- Timestamp: 2026-11-06 03:24:31 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   3m           338Mi           
+command-parser-6458d66b74-6xxbc   3m           338Mi           
+command-parser-6458d66b74-mpcbm   3m           339Mi           
+command-parser-6458d66b74-zdmnr   3m           349Mi           
+
+--- Timestamp: 2026-11-06 03:24:36 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   3m           338Mi           
+command-parser-6458d66b74-6xxbc   3m           338Mi           
+command-parser-6458d66b74-mpcbm   3m           339Mi           
+command-parser-6458d66b74-zdmnr   3m           349Mi           
+
+--- Timestamp: 2026-11-06 03:24:42 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   3m           338Mi           
+command-parser-6458d66b74-6xxbc   3m           338Mi           
+command-parser-6458d66b74-mpcbm   3m           339Mi           
+command-parser-6458d66b74-zdmnr   3m           349Mi           
+
+--- Timestamp: 2026-11-06 03:24:47 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   3m           338Mi           
+command-parser-6458d66b74-6xxbc   926m         339Mi           
+command-parser-6458d66b74-mpcbm   106m         339Mi           
+command-parser-6458d66b74-zdmnr   3m           349Mi           
+
+--- Timestamp: 2026-11-06 03:24:52 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   3m           338Mi           
+command-parser-6458d66b74-6xxbc   926m         339Mi           
+command-parser-6458d66b74-mpcbm   106m         339Mi           
+command-parser-6458d66b74-zdmnr   3m           349Mi           
+
+--- Timestamp: 2026-11-06 03:24:58 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   3m           338Mi           
+command-parser-6458d66b74-6xxbc   926m         339Mi           
+command-parser-6458d66b74-mpcbm   106m         339Mi           
+command-parser-6458d66b74-zdmnr   3m           349Mi           
+
+--- Timestamp: 2026-11-06 03:25:03 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   1927m        339Mi           
+command-parser-6458d66b74-6xxbc   2966m        339Mi           
+command-parser-6458d66b74-mpcbm   3037m        340Mi           
+command-parser-6458d66b74-zdmnr   2857m        350Mi           
+
+--- Timestamp: 2026-11-06 03:25:08 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   1927m        339Mi           
+command-parser-6458d66b74-6xxbc   2966m        339Mi           
+command-parser-6458d66b74-mpcbm   3037m        340Mi           
+command-parser-6458d66b74-zdmnr   2857m        350Mi           
+
+--- Timestamp: 2026-11-06 03:25:14 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   1927m        339Mi           
+command-parser-6458d66b74-6xxbc   2966m        339Mi           
+command-parser-6458d66b74-mpcbm   3037m        340Mi           
+command-parser-6458d66b74-zdmnr   2857m        350Mi           
+
+--- Timestamp: 2026-11-06 03:25:19 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   2889m        342Mi           
+command-parser-6458d66b74-6xxbc   2966m        339Mi           
+command-parser-6458d66b74-mpcbm   3037m        340Mi           
+command-parser-6458d66b74-zdmnr   2901m        351Mi           
+
+--- Timestamp: 2026-11-06 03:25:24 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   2889m        342Mi           
+command-parser-6458d66b74-6xxbc   2966m        339Mi           
+command-parser-6458d66b74-mpcbm   3037m        340Mi           
+command-parser-6458d66b74-zdmnr   2901m        351Mi           
+
+--- Timestamp: 2026-11-06 03:25:30 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   2889m        342Mi           
+command-parser-6458d66b74-6xxbc   2973m        340Mi           
+command-parser-6458d66b74-mpcbm   2863m        342Mi           
+command-parser-6458d66b74-zdmnr   3011m        351Mi           
+
+--- Timestamp: 2026-11-06 03:25:35 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   2889m        342Mi           
+command-parser-6458d66b74-6xxbc   2973m        340Mi           
+command-parser-6458d66b74-mpcbm   2863m        342Mi           
+command-parser-6458d66b74-zdmnr   3011m        351Mi           
+
+--- Timestamp: 2026-11-06 03:25:41 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   2889m        342Mi           
+command-parser-6458d66b74-6xxbc   2973m        340Mi           
+command-parser-6458d66b74-mpcbm   2863m        342Mi           
+command-parser-6458d66b74-zdmnr   3011m        351Mi           
+
+--- Timestamp: 2026-11-06 03:25:46 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   2632m        347Mi           
+command-parser-6458d66b74-6xxbc   2469m        344Mi           
+command-parser-6458d66b74-mpcbm   2586m        347Mi           
+command-parser-6458d66b74-zdmnr   3025m        351Mi           
+
+--- Timestamp: 2026-11-06 03:25:51 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   2632m        347Mi           
+command-parser-6458d66b74-6xxbc   2469m        344Mi           
+command-parser-6458d66b74-mpcbm   2586m        347Mi           
+command-parser-6458d66b74-zdmnr   3025m        351Mi           
+
+--- Timestamp: 2026-11-06 03:25:57 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   2632m        347Mi           
+command-parser-6458d66b74-6xxbc   2469m        344Mi           
+command-parser-6458d66b74-mpcbm   2586m        347Mi           
+command-parser-6458d66b74-zdmnr   3025m        351Mi           
+
+--- Timestamp: 2026-11-06 03:26:02 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   2173m        347Mi           
+command-parser-6458d66b74-6xxbc   1489m        345Mi           
+command-parser-6458d66b74-mpcbm   1474m        347Mi           
+command-parser-6458d66b74-zdmnr   1763m        356Mi           
+
+--- Timestamp: 2026-11-06 03:26:07 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   2173m        347Mi           
+command-parser-6458d66b74-6xxbc   1489m        345Mi           
+command-parser-6458d66b74-mpcbm   1474m        347Mi           
+command-parser-6458d66b74-zdmnr   1763m        356Mi           
+
+--- Timestamp: 2026-11-06 03:26:13 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   2173m        347Mi           
+command-parser-6458d66b74-6xxbc   1489m        345Mi           
+command-parser-6458d66b74-mpcbm   1474m        347Mi           
+command-parser-6458d66b74-zdmnr   1763m        356Mi           
+
+--- Timestamp: 2026-11-06 03:26:18 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   3439m        347Mi           
+command-parser-6458d66b74-6xxbc   2802m        345Mi           
+command-parser-6458d66b74-mpcbm   1066m        347Mi           
+command-parser-6458d66b74-zdmnr   1763m        356Mi           
+
+--- Timestamp: 2026-11-06 03:26:23 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   3439m        347Mi           
+command-parser-6458d66b74-6xxbc   2802m        345Mi           
+command-parser-6458d66b74-mpcbm   1066m        347Mi           
+command-parser-6458d66b74-zdmnr   1763m        356Mi           
+
+--- Timestamp: 2026-11-06 03:26:29 ---
+NAME                              CPU(cores)   MEMORY(bytes)   
+command-parser-6458d66b74-6r77c   3439m        347Mi           
+command-parser-6458d66b74-6xxbc   2802m        345Mi           
+command-parser-6458d66b74-mpcbm   1066m        347Mi           
+command-parser-6458d66b74-zdmnr   1763m        356Mi           
+

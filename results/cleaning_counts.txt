@@ -1,0 +1,16 @@
+=== Task 1: Dataset Cleaning Counts and Reconciliation Table ===
+Total Input Records:         3000
+Rejected (a) Not Valid JSON:   17
+Rejected (b) Bad Keys:         14
+Rejected (c) Bad Intent:       17
+Rejected (d) Bad Slot Text:   128
+Rejected (e) Duplicates:       47
+Kept Records:                2777
+Sum (a + b + c + d + e + kept): 3000
+Reconciliation Check: PASSED (Exact Match: 3000 == 3000)
+
+Cleaned Dataset Path: datasets/v1/train.jsonl
+Cleaned Dataset Records: 2777
+SHA-256 Checksum: 70393bdcd3b7a2710152e46cfa1125d99724ffe23f9553acf5f72046274857af
+S3 Storage Location: s3://datasets/v1/train.jsonl (and v1/train.sha256)
+

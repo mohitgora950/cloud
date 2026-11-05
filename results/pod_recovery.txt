@@ -1,0 +1,10 @@
+=== Kubernetes Pod Failure Recovery Reliability Test ===
+Deployment: command-parser in namespace app
+Target Pod Terminated: command-parser-6458d66b74-5cl7s
+Time to Full Replica Recovery: 22.95 seconds
+Total Traffic Requests Sent: 26
+Successful Requests (HTTP 200): 26
+Failed Requests: 0
+Measured Failure Rate: 0.00% (Threshold: < 2.0%)
+Average Request Latency: 2225.18 ms
+Status: PASSED (High Availability Resiliency Verified)

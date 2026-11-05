@@ -1,0 +1,59 @@
+=== Task 3: 50 Sequential Requests Under Resource Limits (1 CPU, 1 GiB) ===
+Container: parser-limit-test
+Limits: --cpus 1 -m 1g
+OOMKilled: False
+Inspect State: false running
+
+--- Request Progress & Memory Samples ---
+Req 01: latency=7.979s, memory_usage=648.9MiB / 1GiB
+Req 02: latency=8.807s, memory_usage=681.1MiB / 1GiB
+Req 03: latency=8.643s, memory_usage=698MiB / 1GiB
+Req 04: latency=8.632s, memory_usage=698MiB / 1GiB
+Req 05: latency=9.108s, memory_usage=698MiB / 1GiB
+Req 06: latency=10.005s, memory_usage=698.2MiB / 1GiB
+Req 07: latency=9.105s, memory_usage=712.1MiB / 1GiB
+Req 08: latency=9.326s, memory_usage=712.1MiB / 1GiB
+Req 09: latency=8.837s, memory_usage=712.2MiB / 1GiB
+Req 10: latency=9.026s, memory_usage=712.2MiB / 1GiB
+Req 11: latency=8.509s, memory_usage=712.2MiB / 1GiB
+Req 12: latency=7.746s, memory_usage=712.2MiB / 1GiB
+Req 13: latency=8.029s, memory_usage=712.2MiB / 1GiB
+Req 14: latency=7.834s, memory_usage=712.2MiB / 1GiB
+Req 15: latency=8.332s, memory_usage=712.2MiB / 1GiB
+Req 16: latency=8.610s, memory_usage=712.4MiB / 1GiB
+Req 17: latency=9.134s, memory_usage=712.3MiB / 1GiB
+Req 18: latency=9.910s, memory_usage=713.2MiB / 1GiB
+Req 19: latency=9.438s, memory_usage=713.2MiB / 1GiB
+Req 20: latency=9.030s, memory_usage=713.2MiB / 1GiB
+Req 21: latency=9.718s, memory_usage=713.3MiB / 1GiB
+Req 22: latency=8.823s, memory_usage=713.3MiB / 1GiB
+Req 23: latency=8.326s, memory_usage=713.3MiB / 1GiB
+Req 24: latency=8.328s, memory_usage=713.3MiB / 1GiB
+Req 25: latency=8.519s, memory_usage=713.3MiB / 1GiB
+Req 26: latency=8.847s, memory_usage=713.3MiB / 1GiB
+Req 27: latency=10.606s, memory_usage=713.3MiB / 1GiB
+Req 28: latency=9.339s, memory_usage=713.3MiB / 1GiB
+Req 29: latency=9.586s, memory_usage=713.3MiB / 1GiB
+Req 30: latency=10.102s, memory_usage=713.4MiB / 1GiB
+Req 31: latency=9.020s, memory_usage=713.4MiB / 1GiB
+Req 32: latency=9.031s, memory_usage=713.4MiB / 1GiB
+Req 33: latency=8.752s, memory_usage=713.4MiB / 1GiB
+Req 34: latency=8.932s, memory_usage=713.4MiB / 1GiB
+Req 35: latency=9.615s, memory_usage=713.4MiB / 1GiB
+Req 36: latency=9.693s, memory_usage=713.4MiB / 1GiB
+Req 37: latency=8.917s, memory_usage=713.4MiB / 1GiB
+Req 38: latency=8.322s, memory_usage=713.6MiB / 1GiB
+Req 39: latency=9.133s, memory_usage=713.6MiB / 1GiB
+Req 40: latency=19.726s, memory_usage=712.9MiB / 1GiB
+Req 41: latency=12.324s, memory_usage=711.6MiB / 1GiB
+Req 42: latency=13.153s, memory_usage=710.5MiB / 1GiB
+Req 43: latency=9.084s, memory_usage=710.5MiB / 1GiB
+Req 44: latency=8.535s, memory_usage=710.5MiB / 1GiB
+Req 45: latency=10.708s, memory_usage=710.5MiB / 1GiB
+Req 46: latency=9.138s, memory_usage=710.5MiB / 1GiB
+Req 47: latency=9.116s, memory_usage=710.5MiB / 1GiB
+Req 48: latency=9.919s, memory_usage=710.5MiB / 1GiB
+Req 49: latency=10.412s, memory_usage=720.3MiB / 1GiB
+Req 50: latency=10.439s, memory_usage=720.3MiB / 1GiB
+
+Final Memory Reading: 720.3MiB / 1GiB

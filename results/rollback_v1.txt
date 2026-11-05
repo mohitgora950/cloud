@@ -1,0 +1,20 @@
+=== Task 4: Rollback Verification Evidence ===
+Command executed:
+  kubectl rollout undo deployment/command-parser -n app --to-revision=2
+Rollout status:
+  Waiting for deployment "command-parser" rollout to finish: 1 old replicas are pending termination...
+  deployment "command-parser" successfully rolled out
+
+Verification Request:
+  POST http://localhost:8080/parse
+  Payload: {"text": "book flight to paris tomorrow"}
+
+Response:
+  HTTP Status: 200 OK
+  X-Model-Version: v1
+  X-Served-By: command-parser-74f8477f9b-5c2lk
+  Response Body: {"intent": "datetime_query", "date": "tomorrow", "time": null, "place": "paris"}
+
+Result:
+  Successfully verified that after rollback, the service correctly serves v1 model weights downloaded from S3 (models/v1) and sets the HTTP response header 'X-Model-Version: v1'.
+
