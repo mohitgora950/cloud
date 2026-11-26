@@ -1,3 +1,37 @@
+<!-- mg-header -->
+<p align="center">
+  <img src=".github/banner.svg" alt="cloud banner" width="100%" />
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch" />
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions" />
+</p>
+
+<p align="center">
+  <a href="https://mohitgora950.github.io"><b>🌐 Portfolio</b></a> · <a href="https://github.com/mohitgora950"><b>👤 More projects</b></a> · <a href="https://www.linkedin.com/in/mohit-goraaaa1234/"><b>💼 LinkedIn</b></a> · <a href="mailto:mohitgora950@gmail.com"><b>📫 Hire me</b></a>
+</p>
+
+> **TL;DR:** An end-to-end, production-style LLM service: a large teacher model is **distilled into a 70M-parameter student** (Pythia-70M) that turns plain-English commands into JSON, then **containerised and run on Kubernetes** with autoscaling, zero-downtime rollouts, network ACLs and CI/CD.
+
+### ✨ Results at a glance
+
+| What was tested | Result |
+|---|---|
+| Student model JSON validity | **97%** (target ≥ 95%) |
+| Student full-frame accuracy | **34%** vs teacher 46% (target ≥ 50% of teacher) |
+| Requests dropped during rolling update | **0.00%** (27/27 OK) |
+| Pod self-recovery | **~23 s** with 0 dropped requests |
+| Load balancing across replicas | **37% / 38%** split |
+| Container image | **1.7 GB** (limit 2 GB) using CPU-only PyTorch |
+
+---
+<!-- /mg-header -->
+
 # Cloud-Native Command-Parsing Language Model Microservice
 
 **Course:** CS3081: Cloud Computing Mini Project  
